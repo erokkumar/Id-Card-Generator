@@ -12,7 +12,7 @@ This is a ID card generator made using HTML, CSS and JS. One can fill his/her de
 
 ## Screenshot
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://github.com/erokkumar/Id-Card-Generator/assets/101036004/6d8d9cda-68d1-44d9-93fc-86d17cb09c9a)
 
 
 ## Tech Stack
