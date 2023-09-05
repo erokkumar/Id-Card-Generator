@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --theme-dard-green: rgb(137, 7, 7);
+    --theme-light-green: rgb(244, 245, 244);
+    --second-color: #1A2D5A
+}
+
+#id-card {
+    height: 320px;
+    width: 626px;
+    border-radius: 12px !important;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 10px 10px 8px;
+}
+
+#head {
+    background-color: var(--theme-dard-green);
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-content {
+    background: linear-gradient(rgb(209, 189, 189), var(--theme-light-green));
+    height: 75%
+}
+
+#bottom {
+    background-color: var(--theme-dard-green);
+    height: 5%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 3px;
+    padding-left: 0px;
+}
+
+ul li {
+    color: white;
+    font-size: 8px;
+    margin: 3px 19px;
+}
+
+.head-upper {
+    height: 75%;
+    display: flex;
+}
+
+img.ies-icon {
+    height: 90%;
+    margin: 5px 0px 5px 13px;
+}
+
+.college-name {
+    color: white;
+    font-size: 26px;
+    margin-top: 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    /* margin-top: 8px; */
+}
+
+.hr {
+    height: 0px;
+    border-bottom: 1px solid white;
+    border-width: 1px;
+    overflow: inherit;
+    margin: -2px 0px;
+}
+
+.hr::after {
+    content: "BHOPAL";
+    font-size: 10px;
+    letter-spacing: 5px;
+    color: white;
+    position: relative;
+    background-color: var(--theme-dard-green);
+    left: 35%;
+    bottom: 12px;
+    padding: 0px 5px 0px 11px;
+    text-align: center;
+    margin-left: 17px;
+}
+
+.info {
+    margin-left: 10px;
+}
+
+.certified {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.student-info-and-img {
+    display: flex;
+    height: 199px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--second-color) !important;
+    font-weight: 600;
+}
+
+.student-info {
+    width: 70%;
+    font-size: 14px;
+}
+
+.student-img {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.d-info {
+    display: flex;
+    padding: 0px 20px;
+    margin: 0px;
+}
+
+.d-info-title {
+    width: 120px;
+}
+
+.d-info-value {
+    margin-left: 10px;
+    width: 274px;
+}
+
+.profile-image {
+    height: 135px;
+    width: 135px;
+    background-color: red;
+    background: url(../images/erok.jpg);
+    background-size: cover;
+}
+
+.batch-date {
+    width: fit-content;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+button#button {
+    padding: 5px 14px;
+    color: var(--second-color);
+    background-color: white;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 2px solid var(--second-color);
+}
+
+button#button:hover {
+    background-color: var(--second-color);
+    color: white;
+}
